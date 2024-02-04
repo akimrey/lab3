@@ -162,23 +162,6 @@ the file.
 and returns true if it contains two integers that are the same, false
 otherwise.
 ```
-import java.util.List;
-
-public class DuplicateFinder {
-
-    public static boolean containsDuplicate(List<Integer> numbers) {
-        for (int i = 0; i < numbers.size(); i++) {
-            for (int j = i + 1; j < numbers.size(); j++) {
-                if (numbers.get(i).equals(numbers.get(j))) {
-                    // Duplicate found
-                    return true;
-                }
-            }
-        }
-        // No duplicates found
-        return false;
-    }
-
 
 Now that we have a change, let's check Git's state. What's different
 about this message than when we first added the `readme.md` file?
