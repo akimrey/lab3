@@ -137,4 +137,3 @@ Squash and merge - combines all changes from the source branch into a single com
 
 Rebase and merge - involves moving the entire branch to begin on the tip of the target branch, effectively incorpor>
 
-
