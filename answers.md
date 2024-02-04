@@ -122,11 +122,11 @@ shows the different commits between the branches.
 # question 11
 
 akimrey@arden:~/software-engineering/labs/lab3/java$ git push origin one-set
-Username for 'https://github.com': akimrey
-Password for 'https://akimrey@github.com':
+Username for 'ssh://github.com': akimrey
+Password for 'ssh://akimrey@github.com':
 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#clonin>
-fatal: Authentication failed for 'https://github.com/akimrey/lab3.git/'
+
 
 
 # Question 12
