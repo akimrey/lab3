@@ -96,3 +96,45 @@ git add - stages all changed files
 git log - shows the commit history for the current branch
 
 git status - displays the status of staged/modified files 
+# question 9
+
+nest loops - This solution involves using two nested loops to compare each element
+in the list with every other element.
+ The outer loop picks an element, and the inner loop compares this
+element with every other element that comes after it in the list.
+If a match is found (meaning two elements are the same), it concludes that there are duplicates in the list.
+
+set/map - utilize a set (or a map) to keep track of the elements you've seen so far as you iterate through the
+list. For each element, you check if it's already in the set.
+If it is, you know that there's a duplicate. If it's not, you add the element to the set and move on to the next on>
+
+trade-offs - The major advantage is its time complexity, where n is the number of elements in the list.
+This means that the time taken to run the algorithm increases linearly with the size of the input list.
+Space Complexity: as you might need to store every element in the set.
+
+# Question 10
+
+one-set
+
+head now points to main
+
+shows the different commits between the branches.
+# question 11
+
+akimrey@arden:~/software-engineering/labs/lab3/java$ git push origin one-set
+Username for 'https://github.com': akimrey
+Password for 'https://akimrey@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#clonin>
+fatal: Authentication failed for 'https://github.com/akimrey/lab3.git/'
+
+
+# Question 12
+
+Merge commit - involves creating a new commit in the target branch that ties together the histories of both branche>
+
+Squash and merge - combines all changes from the source branch into a single commit in the target branch.
+
+Rebase and merge - involves moving the entire branch to begin on the tip of the target branch, effectively incorpor>
+
+
